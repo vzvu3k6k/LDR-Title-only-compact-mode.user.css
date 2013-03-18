@@ -1,0 +1,23 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("http://reader.livedoor.com/reader/") {
+    .compact .item .item_info,
+    .compact .item .item_body,
+    .compact .item .item_footer {
+        display: none;
+    }
+    
+    .compact .item .item_title {
+        font-size: 100% !important;
+        font-weight: normal;
+        padding: 5px !important;
+    }
+
+    .compact .item {
+        border-bottom: none !important;
+    }
+
+    .compact .padding {
+        border: none !important;
+    }
+}
