@@ -13,7 +13,7 @@
         padding: 5px !important;
     }
 
-    .compact .item {
+    .compact .item:not(.last) {
         border-bottom: none !important;
     }
 
